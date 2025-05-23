@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 	<head>
 	<title> Index </title>
 	</head>
-	<body>	
-	<section>	
-	<header>
-	<h1>Finaque </h1>
-	<button> LOGIN </button>
-	<p>
-	<input type="search" />
-	<button>Search</button>
-	</header>
-	</section>
-	
-	<section>
+	<body>
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		
+		<section>	
+			<header>
+				<h1>
+					<p style="text-align:left;">Finaque
+					<span style="float:right;">				
+					<button> LOGIN </button>
+					<input type="search" />
+					<button>Search</button>
+					</span>
+				</h1>
+			</header>
+		</section>
+
+		<section>
 	<header>
 	<u><b>Novidades</b></u>
 	</header>
