@@ -1,0 +1,12 @@
+h1 {
+  margin: 0;
+  font-size: 100px;
+  font-family:"Ancizar Serif"; 
+  color: Grey;
+  text-shadow: 1px 1px 1px black;
+  text-align:left;
+}
+ html {
+  background-color: #F0F8FF;
+}
+
