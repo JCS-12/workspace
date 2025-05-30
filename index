@@ -7,25 +7,34 @@
 	<body>
 	<link rel="stylesheet" type="text/css" href="./styles/index.css">
 		
-		<section>	
-			<header>
-				<h1>
+		<h1>	
 					<p style="text-align:left;">Finaque
 					<span style="float:right;">				
-					<button> LOGIN </button>
+					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
 					<input type="search" />
 					<button>Search</button>
 					</span>
-				</h1>
-			</header>
-		</section>
+		</h1>
 
 		<section>
-	<header>
-	<u><b>Novidades</b></u>
-	</header>
+	<h1>
+	Novidades
+	</h1>
 	<p>
 	<div>
+	<h1>
+	Comedia Standup
+	</h1>
+	<img onclick="location.href='descricao' " src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
+	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
+	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
+	</div>
+	<p>
+	
+	<div>
+	<h1>
+	Concertos
+	</h1>
 	<img src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
 	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
 	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
@@ -33,6 +42,9 @@
 	<p>
 	
 	<div>
+	<h1>
+	Teatro
+	</h1>
 	<img src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
 	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
 	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
@@ -40,6 +52,9 @@
 	<p>
 	
 	<div>
+	<h1>
+	Desportos Motorizados
+	</h1>
 	<img src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
 	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
 	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
@@ -47,13 +62,9 @@
 	<p>
 	
 	<div>
-	<img src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
-	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
-	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
-	</div>
-	<p>
-	
-	<div>
+	<h1>
+	Cinemas
+	</h1>
 	<img src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
 	<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
 	<img src="https://go2nature.pt/wp-content/uploads/2023/01/go2nature-cascatas-peneda-geres.jpg" width="200" height="200">
