@@ -1,0 +1,21 @@
+<?php
+ $db = new SQLite3('test.db');
+
+ // criação da tabela Viaturas
+ $db->exec("CREATE TABLE login_user(username TEXT, password TEXT)"); //(1)
+ $db->exec("INSERT INTO login_user(username, password) VALUES('admim', adminfinaque)"); //(2)
+ $db->exec("INSERT INTO login_user(username, password) VALUES('gestor', gestorfinaque)"); //(2)
+ $db->exec("INSERT INTO login_user(username, password) VALUES('admim', adminfinaque)"); //(2)
+ echo "<h3>Tabela de login_user </h3>";
+ $sqlvar = "select * from login_user;";
+
+ $result = $db->query($sqlvar); //(3)
+ echo “<table>\n<th> Id </th><th> username </th><th> password </th>\n”;
+ while ($row = $result->fetchArray(SQLITE3_ASSOC)) //(4)
+ {
+ echo ‘<tr><td>’ . $row['id'] . '</td><td>' . $row['username'] . '</td><td>' . $row['password']
+. “</td></tr>\n”;
+ }
+ echo ‘</table>’;
+ unset($db);
+?> 
