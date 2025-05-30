@@ -5,14 +5,14 @@
 	</head>
 	<body>	
 	<section>	
-	<b> User </b>
+	
+	<form action="login.php" method="get">
+	User: <input text="text" name="User" />
 	<p>
-	<input type="text">
+	Password: <input text="text" name="password" />
 	<p>
-	<b> Password </b>
-	<p>
-	<input type="text">
-	<p>
+	<input type="submit" value="Login"/>
+	</form>
 	<u>Regista-te!</u>
 	<p>
 	<u>Esqueceu-se da password?</u>
