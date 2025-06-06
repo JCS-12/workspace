@@ -25,7 +25,9 @@
   	height="341">
 	<h7>Desce à cave do Com Calma Comedy Club e mergulha numa noite de stand-up sem filtros. Liliana Marques recebe comediantes diferentes em cada sessão, num misto de testes e actuações sólidas de humoristas experientes. Piadas novas, momentos únidos e um amnbiente intimista criado para quem gosta de humor no seu estado mais puro. </h7>
   	<b><u>Preço Justo!</u></b>
+  	<div>
   	<input type="button" value="COMPRAR JÀ"><input type="button" value="ADCIONAR CARRINHO">
+	</div>
 	</section>
 	<section class="Recomendados">
 	
