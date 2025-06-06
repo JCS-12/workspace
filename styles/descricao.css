@@ -1,6 +1,18 @@
 .descricao{
 	display: flex;
 	justify-content: flex-start;
+h2{
+	font-size: 35px;
+	font-family:"Roboto"; 
+	color: black;
+	
+}
+h4{
+	font-size: 15px;
+	font-family:"Roboto"; 
+	color: black;
+	
+}
 }
 
 .Recomendados {
@@ -34,12 +46,7 @@ h3 {
 img1 {
 	border-radius: 10px;
 }
-h2{
-	font-size: 35px;
-	font-family:"Roboto"; 
-	color: black;
 	
-}	
 h3{
 	font-size: 20px;
 	font-family:"Roboto"; 
