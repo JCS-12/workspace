@@ -6,7 +6,7 @@
 	<body>	
 	<section>	
 	
-	<form action="login.php" method="get">
+	<form action="login.php" method="post">
 	User: <input text="text" name="User" />
 	<p>
 	Password: <input text="text" name="password" />
