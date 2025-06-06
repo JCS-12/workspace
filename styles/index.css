@@ -1,20 +1,94 @@
-body{
 h1{
   background-color: #000000;
   color: #FFFFFF;
   font:"Roboto";
   font-size: 30px;
 }
+
+
 button{
 	width:60px;
 	height:25px;
 	font-size:15px;
 }
-}
+
 header{
 	text-decoration-line:underline;
 	text-decoration-style:solid;
 }
+
  html {
   background-color: #E7E7E7;
+}
+
+.Categoria1 {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+}
+
+.Categoria2 {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+}
+
+.Categoria3 {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+}
+
+.Categoria4 {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+}
+
+.Categoria5 {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+}
+
+.Bannerfinal {
+
+h1{
+  background-color: #000000;
+  color: #FFFFFF;
+  font:"Roboto";
+  font-size: 30px;
+}
+
+button{
+	width:100px;
+	height:50px;
+	font-size:15px;
+}
+
 }
