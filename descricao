@@ -5,17 +5,19 @@
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="./styles/descricao.css">
-	<header>
-	<h1>FINAQUE</h1>
-	</header>
-	
-	<button type="Login"> Login </button>
-	<p>
-	<button type="Search"> Search </button>
-	<input type="search">
+	<h1>	
+					<p style="text-align:left;">Finaque
+					<span style="float:right;">				
+					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+					<input type="search" />
+					<button>Search</button>
+					</span>
+	</h1>
 	<div>
 	<section class="descricao">
-	<h2>Titulo do espetaculo </h2> <h3>  Idade recomendadas. </h3> 
+	<h2>Titulo do espetaculo </h2> 
+	<p>
+	<h3>  Idade recomendadas. </h3> 
 	<p>
 	<img src="https://www.jf-moreira.pt/wp-content/uploads/2023/05/jfm-standup-comedy-img-site-1000x1450px.jpg"
 	width="341"
@@ -25,6 +27,7 @@
   	<input type="button" value="COMPRAR JÀ"><input type="button" value="ADCIONAR CARRINHO">
 	</div>
 	</section>
+	<section class="Recomendados">
 	<h3>Recomendados </h3>
 	<img src="https://scontent.flis10-1.fna.fbcdn.net/v/t39.30808-6/488054677_1061376059357668_4061175661593466443_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eZvAu7zOIykQ7kNvwE2iA99&_nc_oc=Adm2dEmEEMxOmZGdVzTtTpQbwZsytvhGbaB1T2LJPEMbIr-_p7WIXmgShfMur3rSp64&_nc_zt=23&_nc_ht=scontent.flis10-1.fna&_nc_gid=ewqRgZ5Tbl_2uty_U6U-OQ&oh=00_AfLoXgvroTaZN__IuipAJ2DQwUJ0lWzPnrFp2gAy7cUphw&oe=6836C03A"
 	width="220"
@@ -38,7 +41,7 @@
   	<img src="https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz90602_grande.jpg"
 	width="220"
   	height="250" >
-
+	</section>
 
 </body>
 </html>
