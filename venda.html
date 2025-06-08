@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=”pt”>
+<head>
+    <meta charset="UTF-8" />
+    <title> Carrinho </title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="./styles/venda.css">
+		 <h1>	
+					<p style="text-align:left;">Finaque
+					<span style="float:right;">				
+					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+					<input type="search" />
+					<button>Search</button>
+					</span>
+		</h1>
+<p>NOME</p>
+<input type="text" />
+<p>MORADA</p>
+<input type="text" />
+<p>NIF</p>
+<input type="text" />
+<p>NUMERO DE CARTAO</p>
+<input type="text" />
+<p>Validade</p>
+<input type="text" />
+<p>CVV</p>
+<input type="text" />
+<section class="Button">
+<button >  CHECKOUT  </button>
+</section>
+<section>
+<h1>Resumo da Compra</h1>
+  <ul id="resumo-carrinho"></ul>
+  <p id="total-final">Total: 0€</p>
+
+  <button onclick="finalizarCompra()">Confirmar e Pagar</button>
+
+  <script>
+    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    const total = localStorage.getItem('total') || 0;
+
+    const lista = document.getElementById('resumo-carrinho');
+    const totalElem = document.getElementById('total-final');
+
+    carrinho.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = `${item.nome} - ${item.preco.toFixed(2)}€`;
+      lista.appendChild(li);
+    });
+
+    totalElem.textContent = `Total: ${total}€`;
+
+    function finalizarCompra() {
+      alert('Compra finalizada com sucesso!');
+      localStorage.removeItem('carrinho');
+      localStorage.removeItem('total');
+      window.location.href = 'index.html'; // ou outra página de confirmação
+    }
+  </script>
+
+</section>
+</body>
+</html>
