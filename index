@@ -15,7 +15,7 @@
 		<h1>	
 					<p style="text-align:left;">Finaque
 					<span style="float:right;">				
-					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+					<button onclick="location.href='login.html' " padiing= 20px 20px> Login </button>
 					<input type="search" />
 					<button type="button" onclick="displaydate()">Search</button>
 					</span>
@@ -30,7 +30,7 @@
 		<h1>
 			Comedia Standup
 		</h1>
-			<img onclick="location.href='descricao' " src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
+			<img onclick="location.href='descricao.html' " src="https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/1718035659748-BVN904V9ID67360WX730/image-asset.jpeg" width="200" height="200">
 	
 			<img src="https://www.tripsavvy.com/thmb/2UWHow9-SSY8tDoOdsO1lKWUJhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peneda-geres-national-park-491447484-d1d3417a83f548a5a3302ef4239e3920.jpg" width="200" height="200">
 	
@@ -88,7 +88,7 @@
 	</section>
 	
 	<section class="Bannerfinal">
-		<button> Ver todos </button>
+		<button onclick="location.href='menus.html'"> Ver todos </button>
 	<p>
 	</section>
 	
