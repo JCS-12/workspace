@@ -30,7 +30,34 @@
 <button >  CHECKOUT  </button>
 </section>
 <section>
+<h1>Resumo da Compra</h1>
+  <ul id="resumo-carrinho"></ul>
+  <p id="total-final">Total: 0€</p>
 
+  <button onclick="finalizarCompra()">Confirmar e Pagar</button>
+
+  <script>
+    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    const total = localStorage.getItem('total') || 0;
+
+    const lista = document.getElementById('resumo-carrinho');
+    const totalElem = document.getElementById('total-final');
+
+    carrinho.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = `${item.nome} - ${item.preco.toFixed(2)}€`;
+      lista.appendChild(li);
+    });
+
+    totalElem.textContent = `Total: ${total}€`;
+
+    function finalizarCompra() {
+      alert('Compra finalizada com sucesso!');
+      localStorage.removeItem('carrinho');
+      localStorage.removeItem('total');
+      window.location.href = 'index.html'; // ou outra página de confirmação
+    }
+  </script>
 
 </section>
 </body>

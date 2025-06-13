@@ -1,0 +1,37 @@
+<html>
+<head>
+
+
+<script type="text/javascript">
+if (confirm("maior de 18?")) {
+  txt = "Sim!";
+} else {
+  txt = "Não!";
+}
+</script>
+<script>
+ let carrinho = [];
+let total = 0;
+
+function adicionarAoCarrinho(nome, preco) {
+  carrinho.push({ nome, preco });
+  total += preco;
+  atualizarCarrinho();
+}
+
+function atualizarCarrinho() {
+  const lista = document.getElementById('lista-carrinho');
+  const totalElem = document.getElementById('total');
+  lista.innerHTML = '';
+
+  carrinho.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = `${item.nome} - ${item.preco}€`;
+    lista.appendChild(li);
+  });
+
+  totalElem.textContent = `Total: ${total}€`;
+}
+    </script>
+</head>
+</html>
