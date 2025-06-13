@@ -21,6 +21,7 @@ if ($myUsername == $row['username'] && $myPassword == $row['password'])
 {
     echo "funciona";
 
+
     }
 else{ echo "ERROR";}
 echo '<tr><td>' . $row['id'] . '</td><td>' . $row['username'] . '</td><td>' . $row['password'] . '</td><td>' . $row['email'] . '</td><td>' . $row['contacto'] . '</td><td>' . $row['morada'] . "</td></tr>\n";

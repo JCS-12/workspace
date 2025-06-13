@@ -5,7 +5,6 @@
 	</head>
 	<body>	
 	<section>	
-	
 	<form action="scripts/login.php" method="post">
 	User: <input type="text" name="User" />
 	<p>
