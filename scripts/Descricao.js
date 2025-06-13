@@ -26,5 +26,7 @@ function atualizarCarrinho() {
 function irParaCheckout() {
   localStorage.setItem('carrinho', JSON.stringify(carrinho));
   localStorage.setItem('total', total.toFixed(2));
+  console.log('Carrinho salvo:', localStorage.getItem('carrinho'));
+  console.log('Total salvo:', localStorage.getItem('total'));
   window.location.href = 'venda.html';
 }
