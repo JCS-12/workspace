@@ -28,5 +28,5 @@ function irParaCheckout() {
   localStorage.setItem('total', total.toFixed(2));
   console.log('Carrinho salvo:', localStorage.getItem('carrinho'));
   console.log('Total salvo:', localStorage.getItem('total'));
-  window.location.href = 'venda.html';
+  window.location.href = 'venda';
 }

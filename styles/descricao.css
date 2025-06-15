@@ -1,14 +1,32 @@
 .descricao{
 	display: flex;
 	justify-content: flex-start;
+	
+	
+.imagem-espetaculo{
+	width: 330px;
+  	height: auto;
+}
+	
 h2{
-	font-size: 35px;
+	font-size: 15px;
 	font-family:"Roboto"; 
 	color: black;
 	
 }
+.produto{
+	font-size:1.5em;
+	white-space: nowrap;
+	margin-left: 20px;
+}
+.texto{
+	flex: 1;
+	margin-right: 70px;
+	margin-left: 20px;
+	font-size:1em;
+}
 h4{
-	font-size: 15px;
+	font-size: 5px;
 	font-family:"Roboto"; 
 	color: black;
 	

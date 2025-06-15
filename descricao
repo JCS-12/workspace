@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Descrição</title>
 	<link rel="stylesheet" type="text/css" href="./styles/descricao.css">
 </head>
@@ -15,28 +16,35 @@
 		</span>
 	</h1>
 	<div>
-	<h2>Titulo do espetaculo </h2> 
-	<h4>  Idade recomendadas. </h4>
+	<h2>MORGAN JAY | THE GOOFY GUY TOUR</h2> 
+	<h4>  Idade recomendada: +16 Anos </h4>
 	<p>
+	<h4> LOCALIZAÇÃO: Lisboa, Teatro Maria Matos </h4>
 	</div>
 	<section class="descricao">
-	<img src="https://www.jf-moreira.pt/wp-content/uploads/2023/05/jfm-standup-comedy-img-site-1000x1450px.jpg"
-	width="341"
-  	height="341">
-	<p>Desce à cave do Com Calma Comedy Club e mergulha numa noite de stand-up sem filtros. Liliana Marques recebe comediantes diferentes em cada sessão, num misto de testes e actuações sólidas de humoristas experientes. Piadas novas, momentos únidos e um amnbiente intimista criado para quem gosta de humor no seu estado mais puro. </p>
-  	<div class="product">
+	<img src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600"
+	class=imagem-espetaculo>
+  	
+	<p>
+	<div class=texto > Morgan Jay, um músico e comediante baseado em Los Angeles, já fez aparições no *Wild 'N Out* da MTV, na NBC e na Comedy Central. Morgan criou o seu próprio género de arte performativa e comédia, desenvolvendo um espetáculo baseado na imperfeição, autenticidade, identificabilidade, experiência partilhada e conexão. A sua formação e a sua trajetória como comediante de stand-up valeram-lhe vários prémios e presenças em festivais de prestígio.
+O mais notável foi ser reconhecido como *New Face* no festival *Just For Laughs* em 2023.
+Com cada vez mais seguidores nas redes sociais, nomeadamente no Tiktok e Instagram, conta já com dois especiais de comédia em streaming no Youtube. 
+ </div>
+<div class="product">
 	<p><b>10.00 EUR</b></p>
 	<button onclick="adicionarAoCarrinho('BILHETE 1', 10.00)">Adicionar ao carrinho</button>
-  	<input type="button" value="COMPRAR JÀ">
+	<p>
+  	<button onclick="irParaCheckout()">Comprar já</button>
 	</div>
+	</section>
+  	<p>
 	<div id="carrinho">
 	<h3>Carrinho:</h3>
 	<ul id="lista-carrinho"></ul>
 	<p id="total">Total: 0€</p>
 	<button onclick="irParaCheckout()">Finalizar Compra</button>
   	</div>
-  	
-	</section>
+	<p>
 	<section class="Recomendados">
 	
 	<h3>Recomendados </h3>
