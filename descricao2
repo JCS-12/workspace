@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>MORGAN JAY | THE GOOFY GUY TOUR</title>
+	<title>BEACH PART - NOVA ERA</title>
 	<link rel="stylesheet" type="text/css" href="./styles/descricao.css">
 </head>
 	
@@ -16,20 +16,19 @@
 		</span>
 	</h1>
 	<div>
-	<h2>MORGAN JAY | THE GOOFY GUY TOUR</h2> 
-	<h4>  Idade recomendada: +16 Anos </h4>
+	<h2>BEACH PART - NOVA ERA</h2> 
+	<h4>  Idade recomendada: +18 Anos </h4>
 	<p>
-	<h4> LOCALIZAÇÃO: Lisboa, Teatro Maria Matos </h4>
+	<h4> LOCALIZAÇÃO: Matosinhos, Praia do aterro norte </h4>
 	</div>
 	<section class="descricao">
-	<img src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600"
+	<img src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
 	class=imagem-espetaculo>
   	
 	<p>
-	<div class=texto > Morgan Jay, um músico e comediante baseado em Los Angeles, já fez aparições no *Wild 'N Out* da MTV, na NBC e na Comedy Central. Morgan criou o seu próprio género de arte performativa e comédia, desenvolvendo um espetáculo baseado na imperfeição, autenticidade, identificabilidade, experiência partilhada e conexão. A sua formação e a sua trajetória como comediante de stand-up valeram-lhe vários prémios e presenças em festivais de prestígio.
-O mais notável foi ser reconhecido como *New Face* no festival *Just For Laughs* em 2023.
-Com cada vez mais seguidores nas redes sociais, nomeadamente no Tiktok e Instagram, conta já com dois especiais de comédia em streaming no Youtube. 
- </div>
+	<div class=texto > O cartaz da Nova Era Beach Party de 2023 incluiu artistas como Tiësto, Meduza, Amelie Lens, Hardwell, Morten e muitos outros, com atuações nos dias 30 de junho e 1 de julho na Praia do Aterro Norte, em Matosinhos. No dia 29 de junho, antes do evento principal, houve ainda atuações de Hardwell, Will Sparks, e outros
+	<p>Artistas e Bandas: Amelie Lens / Hugel / Klangkuenstler / Meduza / Morten / Quintino / Rebelion / Sound Rush / Tiësto
+	</div>
 <div class="product">
 	<p><b>10.00 EUR</b></p>
 	<button onclick="adicionarAoCarrinho('BILHETE 1', 10.00)">Adicionar ao carrinho</button>
@@ -48,7 +47,7 @@ Com cada vez mais seguidores nas redes sociais, nomeadamente no Tiktok e Instagr
 	<section class="Recomendados">
 	
 	<h3>Recomendados </h3>
-	<img src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
+	<img src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600"
 	width="220"
   	height="250" >
   	<img src="https://scontent.flis8-1.fna.fbcdn.net/v/t39.30808-6/492005544_10162705638279485_1444380030423116010_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QoIlT70crRMQ7kNvwFkUcCC&_nc_oc=Adk51MLNu6-wYneZPinIO60lZvzVdesZtpqgrYT6HaC_Fjnv7ZCuMwN2V1VXjq4SEjU&_nc_zt=23&_nc_ht=scontent.flis8-1.fna&_nc_gid=88LETSTS8wtoey7LcumqIQ&oh=00_AfMsSAayfympLd_EixOTAlO5VmDfkJbQp_BexoXZ5mkeOQ&oe=6859EE91"
@@ -57,7 +56,7 @@ Com cada vez mais seguidores nas redes sociais, nomeadamente no Tiktok e Instagr
   	<img src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg"
 	width="220"
   	height="250" >
-  	</section>	
+  	</section>
 <script src="scripts/Descricao.js"></script>
 </body>
 </html>
