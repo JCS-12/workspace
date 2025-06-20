@@ -5,8 +5,6 @@ session_start();
 $db = new SQLite3('../base_dados.db');
 
 
-$Name = $_POST['Nome'];
-$Nif = $_POST['Nif'];
 $Username = $_POST['User'];
 $Password = $_POST['Password'];
 $Email = $_POST['Email'];
@@ -14,7 +12,7 @@ $Contacto = $_POST['Contacto'];
 $Morada = $_POST['Morada'];
 
 
-$db->exec("INSERT INTO LOGIN (Nome, Nif, User, Password, Email, Contacto, Morada) VALUES ('$Name', '$Nif', '$Username', '$Password', '$Email', '$Contacto', '$Morada');");
+$db->exec("INSERT INTO LOGIN (User, Password, Email, Contacto, Morada) VALUES ('$username', '$password', '$email', '$contacto', '$morada');");
 
 $sqlvar = "select * from LOGIN ;";
 $result = $db->query($sqlvar);
