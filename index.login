@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+	<head>
+	
+	</script>
+	<title> Index </title>
+	<script type="text/discourse-plugin" version="0.8.18">
+    if(api.getCurrentUser() != null) {
+        $("#logged-in-user").text(" " + api.getCurrentUser().username);
+    }
+</script>
+	</head>
+	<header>
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		<h1>	
+					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
+					<span style="float:right;">				
+					<h2 class="x-title">Ola,<span id="logged-in-user"></span>! Bem-Vindo!</h2>
+					</span>
+	</header>
+		</h1>
+<body>
+	<p>
+	
+	<section class="Categoria1">
+		<h1>
+			Comedia Standup
+		</h1>
+			<img onclick="location.href='descricao' " src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600" class=imagem-espetaculo>
+	
+	</section>
+	
+	<p>
+	
+	<section class="Categoria2">
+		<h1>
+			Festivais
+		</h1>
+		<img onclick="location.href='descricao2'" src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg" class=imagem-espetaculo>
+	
+	</section>
+	
+	<section class="Categoria3">
+		<h1>
+			Futebol
+		</h1>
+
+		<img onclick="location.href='descricao3'" src="https://scontent.flis8-1.fna.fbcdn.net/v/t39.30808-6/492005544_10162705638279485_1444380030423116010_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QoIlT70crRMQ7kNvwFkUcCC&_nc_oc=Adk51MLNu6-wYneZPinIO60lZvzVdesZtpqgrYT6HaC_Fjnv7ZCuMwN2V1VXjq4SEjU&_nc_zt=23&_nc_ht=scontent.flis8-1.fna&_nc_gid=88LETSTS8wtoey7LcumqIQ&oh=00_AfMsSAayfympLd_EixOTAlO5VmDfkJbQp_BexoXZ5mkeOQ&oe=6859EE91" class=imagem-espetaculo>
+		
+	
+		<p>
+	
+	</section>
+	
+	<section class="Categoria4">
+		<h1>
+			Desportos Motorizados
+		</h1>
+		<img onclick="location.href='descricao4'" src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg" class=imagem-espetaculo>
+		
+	
+	<p>
+	
+	</section>
+	
+	
+	
+	<section class="Bannerfinal">
+<!--		<button onclick="location.href='menus'"> Ver todos </button> -->
+	<p>
+	</section>
+	
+	</body>
+</html>
