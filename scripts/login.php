@@ -2,32 +2,40 @@
 
 session_start();
 
+
 $db = new SQLite3('../base_dados.db');
+
 
 $myUsername = $_POST['User'];
 $myPassword = $_POST['Password'];
 
-$sqlvar = "select * from LOGIN ;";
-$result = $db->query($sqlvar);
 
-echo "$myUsername";
-echo "$myPassword";
+$stmt = $db->prepare("SELECT * FROM LOGIN WHERE username = :username");
+$stmt->bindValue(':username', $myUsername, SQLITE3_TEXT);
+$result = $stmt->execute();
 
-//echo "<table>\n<th> id </th>\n<th> username </th>\n<th> password </th><th> email </th><th> contacto </th><th> morada </th>\n";
+$loginSuccess = false;
 
-while ($row = $result->fetchArray(SQLITE3_ASSOC))
-{
-if ($myUsername == $row['username'] && $myPassword == $row['password'])
-{
-   // Alert("Login bem sucedido.");
+while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
 
-
+    if ($myUsername == $row['username'] && $myPassword == $row['password']) {
+        $loginSuccess = true;
+        $_SESSION['username'] = $myUsername;
+        break;
     }
-else{ echo "ERROR";}
-//echo '<tr><td>' . $row['id'] . '</td><td>' . $row['username'] . '</td><td>' . $row['password'] . '</td><td>' . $row['email'] . '</td><td>' . $row['contacto'] . '</td><td>' . $row['morada'] . "</td></tr>\n";
+};
 
+if ($loginSuccess) {
+
+    header('Location: ../index');
+    exit();
+} else {
+
+    $message = "Wrong username or password";
+
+    echo "<script type='text/javascript'>alert('$message');</script>";
 }
-echo '</table>';
 
 ?>
+
 
