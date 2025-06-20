@@ -27,7 +27,7 @@ while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
 
 if ($loginSuccess) {
 
-    header('Location: ../index');
+    header('Location: ../index.login');
     exit();
 } else {
 

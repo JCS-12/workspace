@@ -1,27 +1,39 @@
 <?php
-echo 'teste';
 session_start();
+
 
 $db = new SQLite3('../base_dados.db');
 
 
-$Username = $_POST['User'];
-$Password = $_POST['Password'];
-$Email = $_POST['Email'];
-$Contacto = $_POST['Contacto'];
-$Morada = $_POST['Morada'];
+$Username = $_POST['Username'] ?? '';
+$Password = $_POST['Password'] ?? '';
+$Email = $_POST['Email'] ?? '';
+$Contacto = $_POST['Contacto'] ?? '';
+$Morada = $_POST['Morada'] ?? '';
 
 
-$db->exec("INSERT INTO LOGIN (User, Password, Email, Contacto, Morada) VALUES ('$username', '$password', '$email', '$contacto', '$morada');");
-
-$sqlvar = "select * from LOGIN ;";
-$result = $db->query($sqlvar);
-
-echo "$Username";
-echo "$Password";
-
-echo "<table>\n<th> id </th>\n<th> username </th>\n<th> password </th><th> email </th><th> contacto </th><th> morada </th>\n";
-echo '<tr><td>' . $row['id'] . '</td><td>' . $row['username'] . '</td><td>' . $row['password'] . '</td><td>' . $row['email'] . '</td><td>' . $row['contacto'] . '</td><td>' . $row['morada'] . "</td></tr>\n";
+if (empty($Username) || empty($Password) || empty($Email) || empty($Contacto) || empty($Morada)) {
+   die("Please fill in all required fields.");
+}
 
 
+$hashedPassword = password_hash($Password, PASSWORD_DEFAULT);
+
+
+$stmt = $db->prepare("INSERT INTO LOGIN (User, Password, Email, Contacto, Morada) VALUES (:User, :Password, :Email, :Contacto, :Morada)");
+$stmt->bindValue(':user', $Username, SQLITE3_TEXT);
+$stmt->bindValue(':password', $hashedPassword, SQLITE3_TEXT);
+$stmt->bindValue(':email', $Email, SQLITE3_TEXT);
+$stmt->bindValue(':contacto', $Contacto, SQLITE3_TEXT);
+$stmt->bindValue(':morada', $Morada, SQLITE3_TEXT);
+
+
+if ($stmt->execute()) {
+    echo "User registered successfully!";
+    // header('Location: login');
+    // exit();
+} else {
+    echo "Error registering user: " . $db->lastErrorMsg();
+}
 ?>
+
