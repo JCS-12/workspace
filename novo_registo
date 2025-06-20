@@ -5,29 +5,24 @@
     <title> Registo</title>
 </head>
 <body>
-		 <h1>	
-					<p style="text-align:left;">Finaque
+		<h1>	
+					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
 					<span style="float:right;">				
 					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
-					<input type="search" />
-					<button>Search</button>
 					</span>
 		</h1>
 
 <form action="scripts/novoregisto.php" method="post">
     User: <input type="text" name="User" />
-	<p>
-	Password: <input type="password" name="Password" />
-	<p>
-    Nome: <input type="text" name="Nome" />
+    <p>
+    Password: <input type="password" name="Password" />
+    <p>
+    Email: <input type="text" name="Email" />
+    <p>
+    Contacto: <input type="text" name="Contacto" />
     <p>
     Morada: <input type="text" name="Morada" />
 
-
-    
-    <p>
-    Nif: <input type="text" name="Nif" />
-	<p>
 <section class="Button">
 <input type="submit" value="Registar"/>
 </form>

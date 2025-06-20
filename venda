@@ -7,12 +7,10 @@
 <body>
 <link rel="stylesheet" type="text/css" href="./styles/venda.css">
 		 <h1>	
-					<p style="text-align:left;">Finaque
-					<span style="float:right;">				
-					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
-					<input type="search" />
-					<button>Search</button>
-					</span>
+			<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
+			<span style="float:right;">				
+			<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+			</span>
 		</h1>
 <p>NOME</p>
 <input type="text" />

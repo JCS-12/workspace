@@ -9,11 +9,9 @@
 		<link rel="stylesheet" type="text/css" href="./styles/index.css">
 		
 		<h1>	
-					<p style="text-align:left;">Finaque
+					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
 					<span style="float:right;">				
-					<button onclick="location.href='login.html' " padiing= 20px 20px> Login </button>
-					<input type="search" />
-					<button>Search</button>
+					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
 					</span>
 		</h1>
 
