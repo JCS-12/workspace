@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <title> Registo</title>
 </head>
-<body>
+<link rel="stylesheet" type="text/css" href="./styles/index.css">
 		<h1>	
 					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
 					<span style="float:right;">				
-					<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+					<h2 class="x-title">Bem-Vindo!</h2>
 					</span>
-		</h1>
-
+<body>
+	
 <form action="scripts/novoregisto.php" method="post">
     User: <input type="text" name="User" />
     <p>

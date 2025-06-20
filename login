@@ -3,6 +3,18 @@
 	<head>
 	<title> Login</title>
 	</head>
+	</script>
+	
+	</head>
+	<header>
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		<h1>	
+					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
+					<span style="float:right;">				
+					<h2 class="x-title">Registar!</h2>
+					</span>
+	</header>
+	
 	<body>	
 	<section>
 	<form action="scripts/login.php" method="post">
@@ -12,10 +24,8 @@
 	<p>
 	<input type="submit" value="Login"/>
 	</form>
-	<onclick="location.href='novo_registo' " padiing= 20px 20px> Login <br>
-	<input type="text" onclik>Regista-te!</>
-	<p>
-	<u>Esqueceu-se da password?</u>
+	<a href="novo_registo"; style="color:blue"> Registar-me <a>
+	
 	</section>
 	</body>
 </html>
