@@ -5,18 +5,14 @@
 	
 	</script>
 	<title> Index </title>
-	<script type="text/discourse-plugin" version="0.8.18">
-    if(api.getCurrentUser() != null) {
-        $("#logged-in-user").text(" " + api.getCurrentUser().username);
-    }
-</script>
+	
 	</head>
 	<header>
 	<link rel="stylesheet" type="text/css" href="./styles/index.css">
 		<h1>	
 					<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
 					<span style="float:right;">				
-					<h2 class="x-title">Ola,<span id="logged-in-user"></span>! Bem-Vindo!</h2>
+					<h2 class="x-title">Bem-Vindo!</h2>
 					</span>
 	</header>
 		</h1>
