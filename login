@@ -12,7 +12,8 @@
 	<p>
 	<input type="submit" value="Login"/>
 	</form>
-	<u>Regista-te!</u>
+	<onclick="location.href='novo_registo' " padiing= 20px 20px> Login <br>
+	<input type="text" onclik>Regista-te!</>
 	<p>
 	<u>Esqueceu-se da password?</u>
 	</section>
