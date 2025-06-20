@@ -7,13 +7,11 @@
 </head>
 	
 <body>
-	<h1 style="text-align:left;">
-		Finaque
-		<span style="float:right;">				
-			<button onclick="location.href='login' " padding: 20px 20px> Login </button>
-			<input type="search" />
-			<button>Search</button>
-		</span>
+	<h1>	
+				<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
+				<span style="float:right;">				
+				<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+				</span>
 	</h1>
 	<div>
 	<h2>Taça de Portugal: FC Porto VS SL Benfica</h2> 
@@ -53,13 +51,13 @@ O Estádio do Dragão será palco de mais um duelo emocionante entre dois gigant
 	<section class="Recomendados">
 	
 	<h3>Recomendados </h3>
-	<img src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
+	<img onclick="location.href='descricao2' " src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
 	width="220"
   	height="250" >
-  	<img src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600"
+  	<img onclick="location.href='descricao' " src="https://thumbs.web.sapo.io/?epic=wQEEw4aFSZEw5s/UiNQNJ9erV36hwO/d9L9kMUZRaeTA7tmx7qV4SyayuZIGRMoK62KlJPuvb8GaVj670pK57ktMelF09Jx1/zYQUIE1xJ7edB0iI584D9D4sI4I77csxEPT&Q=85&crop=center&errorpic=transparent&W=600"
 	width="220"
   	height="250" >
-  	<img src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg"
+  	<img onclick="location.href='descricao4' " src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg"
 	width="220"
   	height="250" >
   	</section>

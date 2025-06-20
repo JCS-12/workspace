@@ -7,14 +7,12 @@
 </head>
 	
 <body>
-	<h1 style="text-align:left;">
-		Finaque
-		<span style="float:right;">				
-			<button onclick="location.href='login' " padding: 20px 20px> Login </button>
-			<input type="search" />
-			<button>Search</button>
-		</span>
-	</h1>
+	<h1>	
+			<p style="text-align:left;"> <a href="index"; style="color: white"> Finaque <a>
+			<span style="float:right;">				
+			<button onclick="location.href='login' " padiing= 20px 20px> Login </button>
+			</span>
+		</h1>
 	<div>
 	<h2>MORGAN JAY | THE GOOFY GUY TOUR</h2> 
 	<h4>  Idade recomendada: +16 Anos </h4>
@@ -48,13 +46,13 @@ Com cada vez mais seguidores nas redes sociais, nomeadamente no Tiktok e Instagr
 	<section class="Recomendados">
 	
 	<h3>Recomendados </h3>
-	<img src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
+	<img onclick="location.href='descricao2' " src="https://www.masqueticket.com/storage/img/F0000000258_nova_era_beach_party_festival_matosinhos_2023_cartel_entradas_masqueticket_.jpg"
 	width="220"
   	height="250" >
-  	<img src="https://scontent.flis8-1.fna.fbcdn.net/v/t39.30808-6/492005544_10162705638279485_1444380030423116010_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QoIlT70crRMQ7kNvwFkUcCC&_nc_oc=Adk51MLNu6-wYneZPinIO60lZvzVdesZtpqgrYT6HaC_Fjnv7ZCuMwN2V1VXjq4SEjU&_nc_zt=23&_nc_ht=scontent.flis8-1.fna&_nc_gid=88LETSTS8wtoey7LcumqIQ&oh=00_AfMsSAayfympLd_EixOTAlO5VmDfkJbQp_BexoXZ5mkeOQ&oe=6859EE91"
+  	<img onclick="location.href='descricao3' "src="https://scontent.flis8-1.fna.fbcdn.net/v/t39.30808-6/492005544_10162705638279485_1444380030423116010_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QoIlT70crRMQ7kNvwFkUcCC&_nc_oc=Adk51MLNu6-wYneZPinIO60lZvzVdesZtpqgrYT6HaC_Fjnv7ZCuMwN2V1VXjq4SEjU&_nc_zt=23&_nc_ht=scontent.flis8-1.fna&_nc_gid=88LETSTS8wtoey7LcumqIQ&oh=00_AfMsSAayfympLd_EixOTAlO5VmDfkJbQp_BexoXZ5mkeOQ&oe=6859EE91"
 	width="220"
   	height="250" >
-  	<img src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg"
+  	<img onclick="location.href='descricao4' " src="https://auto-drive.pt/wp-content/uploads/2021/03/2021_Portuga_Heinekenl_Comunicacao_Local_rgb_Poster-1.jpg"
 	width="220"
   	height="250" >
   	</section>	
